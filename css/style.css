@@ -1,6 +1,6 @@
 html {
-  background-color: #59a1db;
-  background-image: linear-gradient(to bottom, #59a1db, #1f428d);
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, #020122, #0e091a);
   min-height: 100%;
 }
 
@@ -16,29 +16,30 @@ body {
 
 header {
   text-align: center;
-  color: #cedcff;
-  font-size: 100px;
+  color: #FFFFFF;
+  font-size: 550%;
 }
 
 nav {
   display: flex;
-  font-size: 30px;
-  margin: 30px;
-  gap: 50px;
+  font-size: 100%;
+  margin: 1% 2% 2% 2%;
+  gap: 2%;
 }
 
 a {
-  color: #cedcff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2247ad;
+  color: #5d75ff;
 }
 
 main {
   text-align: center;
-  color: #cedcff;
+  color: #FFFFFF;
+  padding: 0px 10% 0px 10%;
 }
 img {
   display: block;
@@ -46,4 +47,8 @@ img {
   margin-right: auto;
   width: 25%;
   margin-bottom: 5%;
+}
+
+nav{
+  color:black;
 }
